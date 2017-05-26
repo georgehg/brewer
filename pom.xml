@@ -16,6 +16,7 @@
 		<spring-framework.version>4.3.8.RELEASE</spring-framework.version>
 		<servlet.version>3.1.0</servlet.version>
 		<thymeleaf.version>3.0.6.RELEASE</thymeleaf.version>
+		<hibernate-validator.version>5.4.1.Final</hibernate-validator.version>
 	</properties>
 
 	<dependencyManagement>
@@ -57,6 +58,12 @@
 			<groupId>org.thymeleaf</groupId>
 			<artifactId>thymeleaf-spring4</artifactId>
 			<version>${thymeleaf.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-validator</artifactId>
+			<version>${hibernate-validator.version}</version>
 		</dependency>
 
 	</dependencies>
