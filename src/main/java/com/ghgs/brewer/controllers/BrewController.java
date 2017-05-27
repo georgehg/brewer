@@ -30,5 +30,11 @@ public class BrewController {
 		
 		return "redirect:/brews/new";
 	}
+	
+	@RequestMapping("brews/cadastro")
+	public String cadastro() {
+		return "brew/cadastro-produto";
+	}
+
 
 }
